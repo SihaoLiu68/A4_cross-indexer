@@ -1,0 +1,405 @@
+myprogram:	file format ELF64-x86-64
+
+.debug_line contents:
+debug_line[0x00000000]
+Line table prologue:
+    total_length: 0x0000007a
+         version: 4
+ prologue_length: 0x00000057
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = "/builddir/build/BUILD/rustc-1.47.0-src/library/core/src"
+file_names[  1]:
+           name: "hint.rs"
+      dir_index: 1
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x0000000000006190    114      0      1   0             0  is_stmt
+0x0000000000006194    124      9      1   0             0  is_stmt prologue_end
+0x0000000000006194    128      2      1   0             0  is_stmt
+0x0000000000006196    128      2      1   0             0  is_stmt end_sequence
+
+debug_line[0x0000007e]
+Line table prologue:
+    total_length: 0x000000ae
+         version: 4
+ prologue_length: 0x00000054
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = "/builddir/build/BUILD/rustc-1.47.0-src/library/std/src"
+file_names[  1]:
+           name: "rt.rs"
+      dir_index: 1
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x00000000000061a0     60      0      1   0             0  is_stmt
+0x00000000000061ba     66     10      1   0             0  is_stmt prologue_end
+0x00000000000061bf     66      9      1   0             0 
+0x00000000000061c4     65      5      1   0             0  is_stmt
+0x00000000000061eb      0      5      1   0             0 
+0x00000000000061ef     70      2      1   0             0  is_stmt
+0x00000000000061f4     70      2      1   0             0  is_stmt end_sequence
+0x0000000000006200     66      0      1   0             0  is_stmt
+0x0000000000006209     66     77      1   0             0  is_stmt prologue_end
+0x000000000000620c     66     18      1   0             0 
+0x000000000000621a      0     18      1   0             0 
+0x000000000000621e     66     91      1   0             0 
+0x0000000000006223     66     91      1   0             0  end_sequence
+
+debug_line[0x00000130]
+Line table prologue:
+    total_length: 0x00000179
+         version: 4
+ prologue_length: 0x0000005a
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = "/builddir/build/BUILD/rustc-1.47.0-src/library/core/src/fmt"
+file_names[  1]:
+           name: "mod.rs"
+      dir_index: 1
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x0000000000006230   1986      0      1   0             0  is_stmt
+0x000000000000623e   1986     71      1   0             0  is_stmt prologue_end
+0x0000000000006245   1986     62      1   0             0 
+0x000000000000625f      0     62      1   0             0 
+0x0000000000006263   1986     84      1   0             0 
+0x000000000000626d   1986     84      1   0             0  end_sequence
+0x0000000000006270    273      0      1   0             0  is_stmt
+0x000000000000627e    282     42      1   0             0  is_stmt prologue_end
+0x0000000000006292      0     42      1   0             0 
+0x0000000000006297    282     68      1   0             0 
+0x00000000000062a5      0     68      1   0             0 
+0x00000000000062a9    282     18      1   0             0 
+0x00000000000062b8    283      6      1   0             0  is_stmt
+0x00000000000062c7    283      6      1   0             0  is_stmt end_sequence
+0x00000000000062d0    273      0      1   0             0  is_stmt
+0x00000000000062de    282     42      1   0             0  is_stmt prologue_end
+0x00000000000062f2      0     42      1   0             0 
+0x00000000000062f7    282     68      1   0             0 
+0x0000000000006305      0     68      1   0             0 
+0x0000000000006309    282     18      1   0             0 
+0x0000000000006318    283      6      1   0             0  is_stmt
+0x0000000000006327    283      6      1   0             0  is_stmt end_sequence
+0x0000000000006330    273      0      1   0             0  is_stmt
+0x000000000000633e    282     42      1   0             0  is_stmt prologue_end
+0x0000000000006352      0     42      1   0             0 
+0x0000000000006357    282     68      1   0             0 
+0x0000000000006365      0     68      1   0             0 
+0x0000000000006369    282     18      1   0             0 
+0x0000000000006378    283      6      1   0             0  is_stmt
+0x0000000000006387    283      6      1   0             0  is_stmt end_sequence
+0x0000000000006390    273      0      1   0             0  is_stmt
+0x000000000000639e    282     42      1   0             0  is_stmt prologue_end
+0x00000000000063b2      0     42      1   0             0 
+0x00000000000063b7    282     68      1   0             0 
+0x00000000000063c5      0     68      1   0             0 
+0x00000000000063c9    282     18      1   0             0 
+0x00000000000063d8    283      6      1   0             0  is_stmt
+0x00000000000063e7    283      6      1   0             0  is_stmt end_sequence
+0x00000000000063f0    319      0      1   0             0  is_stmt
+0x000000000000640b    320     34      1   0             0  is_stmt prologue_end
+0x0000000000006413    320      9      1   0             0 
+0x0000000000006433    321      6      1   0             0  is_stmt
+0x0000000000006438    321      6      1   0             0  is_stmt end_sequence
+
+debug_line[0x000002ad]
+Line table prologue:
+    total_length: 0x000000a7
+         version: 4
+ prologue_length: 0x00000059
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = "/builddir/build/BUILD/rustc-1.47.0-src/library/std/src"
+file_names[  1]:
+           name: "process.rs"
+      dir_index: 1
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x0000000000006440   1667      0      1   0             0  is_stmt
+0x0000000000006446   1668      9      1   0             0  is_stmt prologue_end
+0x000000000000644f      0      9      1   0             0 
+0x0000000000006453   1669      6      1   0             0  is_stmt
+0x0000000000006458   1669      6      1   0             0  is_stmt end_sequence
+0x0000000000006460   1701      0      1   0             0  is_stmt
+0x0000000000006466   1702      9      1   0             0  is_stmt prologue_end
+0x0000000000006470      0      9      1   0             0 
+0x0000000000006476   1703      6      1   0             0  is_stmt
+0x0000000000006478   1703      6      1   0             0  is_stmt end_sequence
+
+debug_line[0x00000358]
+Line table prologue:
+    total_length: 0x000000aa
+         version: 4
+ prologue_length: 0x0000001e
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+file_names[  1]:
+           name: "fib.rs"
+      dir_index: 0
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x0000000000006480      3      0      1   0             0  is_stmt
+0x0000000000006496      4     26      1   0             0  is_stmt prologue_end
+0x00000000000064aa      5     24      1   0             0  is_stmt
+0x00000000000064b3      6     30      1   0             0  is_stmt
+0x00000000000064bb      7     21      1   0             0  is_stmt
+0x00000000000064c6      9     14      1   0             0  is_stmt
+0x00000000000064cd      9      5      1   0             0 
+0x00000000000064ed      9      5      1   0             0 
+0x000000000000650e      0      5      1   0             0 
+0x0000000000006513      9      5      1   0             0 
+0x0000000000006528      9      5      1   0             0 
+0x000000000000656c      0      5      1   0             0 
+0x0000000000006573     10     14      1   0             0  is_stmt
+0x000000000000657a     10      5      1   0             0 
+0x000000000000659a     10      5      1   0             0 
+0x00000000000065b1      0      5      1   0             0 
+0x00000000000065b6     10      5      1   0             0 
+0x00000000000065cb     10      5      1   0             0 
+0x000000000000660c      0      5      1   0             0 
+0x0000000000006613     11     14      1   0             0  is_stmt
+0x000000000000661a     11      5      1   0             0 
+0x000000000000663a     11      5      1   0             0 
+0x0000000000006651      0      5      1   0             0 
+0x0000000000006656     11      5      1   0             0 
+0x000000000000666b     11      5      1   0             0 
+0x00000000000066ac      0      5      1   0             0 
+0x00000000000066b3     12     14      1   0             0  is_stmt
+0x00000000000066ba     12      5      1   0             0 
+0x00000000000066da     12      5      1   0             0 
+0x00000000000066f1      0      5      1   0             0 
+0x00000000000066f6     12      5      1   0             0 
+0x000000000000670b     12      5      1   0             0 
+0x000000000000674c     13      3      1   0             0  is_stmt
+0x0000000000006754     13      3      1   0             0  is_stmt end_sequence
+
+debug_line[0x00000406]
+Line table prologue:
+    total_length: 0x00000092
+         version: 4
+ prologue_length: 0x00000071
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = "/builddir/build/BUILD/rustc-1.47.0-src/library/std/src/sys/unix/process"
+file_names[  1]:
+           name: "process_common.rs"
+      dir_index: 1
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x0000000000006790    398      0      1   0             0  is_stmt
+0x0000000000006795    399      9      1   0             0  is_stmt prologue_end
+0x0000000000006798    400      6      1   0             0  is_stmt
+0x000000000000679a    400      6      1   0             0  is_stmt end_sequence
+
+debug_line[0x0000049c]
+Line table prologue:
+    total_length: 0x00000095
+         version: 4
+ prologue_length: 0x00000066
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = "/builddir/build/BUILD/rustc-1.47.0-src/library/std/src/sys_common"
+file_names[  1]:
+           name: "backtrace.rs"
+      dir_index: 1
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x00000000000067a0    133      0      1   0             0  is_stmt
+0x00000000000067a9    137     18      1   0             0  is_stmt prologue_end
+0x00000000000067b0    133      1      1   0             0  is_stmt
+0x00000000000067bc    140      5      1   0             0  is_stmt
+0x00000000000067c3    143      2      1   0             0  is_stmt
+0x00000000000067c8    143      1      1   0             0 
+0x00000000000067ca      0      1      1   0             0 
+0x00000000000067d5      0      1      1   0             0  end_sequence
+
+debug_line[0x00000535]
+Line table prologue:
+    total_length: 0x00000124
+         version: 4
+ prologue_length: 0x000000a5
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  1] = "/builddir/build/BUILD/rustc-1.47.0-src/library/core/src/ops"
+include_directories[  2] = "/builddir/build/BUILD/rustc-1.47.0-src/library/core/src/ptr"
+file_names[  1]:
+           name: "function.rs"
+      dir_index: 1
+       mod_time: 0x00000000
+         length: 0x00000000
+file_names[  2]:
+           name: "mod.rs"
+      dir_index: 2
+       mod_time: 0x00000000
+         length: 0x00000000
+
+Address            Line   Column File   ISA Discriminator Flags
+------------------ ------ ------ ------ --- ------------- -------------
+0x00000000000067e0    227      0      1   0             0  is_stmt
+0x00000000000067e9    227      5      1   0             0  is_stmt prologue_end
+0x00000000000067f5      0      5      1   0             0 
+0x00000000000067f9    227      5      1   0             0 
+0x00000000000067fe    227      5      1   0             0  end_sequence
+0x0000000000006800    227      0      1   0             0  is_stmt
+0x000000000000680e    227      5      1   0             0  is_stmt prologue_end
+0x000000000000681b      0      5      1   0             0 
+0x000000000000681f    227      5      1   0             0 
+0x0000000000006832      0      5      1   0             0 
+0x000000000000683d      0      5      1   0             0  end_sequence
+0x0000000000006840    227      0      1   0             0  is_stmt
+0x0000000000006849    227      5      1   0             0  is_stmt prologue_end
+0x0000000000006850    227      5      1   0             0  is_stmt end_sequence
+0x0000000000006850    184      0      2   0             0  is_stmt
+0x0000000000006859    184      1      2   0             0  is_stmt prologue_end
+0x000000000000685e    184      1      2   0             0  is_stmt end_sequence
+
